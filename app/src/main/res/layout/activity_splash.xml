@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/pinkcolor"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.SplashActivity">
+
+    <ImageView
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+
+        android:layout_above="@+id/midimage"
+        android:layout_marginLeft="@dimen/_100sdp"
+        android:layout_marginBottom="120sp"
+        android:src="@drawable/dummy1">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_marginBottom="@dimen/_48sdp"
+        android:layout_width="@dimen/_60sdp"
+
+        android:layout_height="@dimen/_60sdp"
+        android:layout_above="@+id/midimage"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/_24sdp"
+        android:src="@drawable/dummy3">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:layout_width="@dimen/_45sdp"
+
+        android:layout_height="@dimen/_45sdp"
+        android:layout_above="@+id/midimage"
+        android:layout_marginLeft="@dimen/_24sdp"
+        android:src="@drawable/dummy2">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/_48sdp"
+        android:layout_toRightOf="@+id/midimage"
+        android:src="@drawable/dummy6">
+
+    </ImageView>
+
+
+    <ImageView
+        android:id="@+id/midimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_happidicon">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/nameimage"
+        android:src="@drawable/name"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/midimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_width="@dimen/_45sdp"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_below="@+id/nameimage"
+        android:layout_marginLeft="@dimen/_24sdp"
+        android:src="@drawable/dummy5">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_below="@+id/nameimage"
+
+        android:layout_marginLeft="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_64sdp"
+        android:src="@drawable/dummy7">
+
+    </ImageView>
+
+
+    <ImageView
+        android:layout_width="@dimen/_55sdp"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_below="@+id/nameimage"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="@dimen/_36sdp"
+        android:layout_marginRight="@dimen/_24sdp"
+        android:src="@drawable/dummy4">
+
+    </ImageView>
+    <RelativeLayout
+        android:layout_marginBottom="@dimen/_16sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Find Nearest Local"
+            android:textColor="@color/blackcolor"
+            android:textSize="@dimen/_16sdp">
+
+        </TextView>
+    <TextView
+        android:layout_below="@+id/txt1"
+        android:textSize="@dimen/_16sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Market"
+        android:textColor="@color/blackcolor">
+
+    </TextView>
+    </RelativeLayout>
+</RelativeLayout>

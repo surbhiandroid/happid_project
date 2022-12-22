@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:background="@color/whitecolor"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".View.EntermobilenoActivity">
+<RelativeLayout
+    android:id="@+id/headerrylt"
+    android:background="@color/pinkcolor"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_48sdp">
+
+    <ImageView
+        android:layout_centerVertical="true"
+
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:src="@drawable/ic_back">
+
+    </ImageView>
+</RelativeLayout>
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/headerrylt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/pinkcolor">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Enter your Verification code"
+                android:textColor="@color/blackcolor"
+                android:textSize="@dimen/_24sdp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt1"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:fontFamily="@font/montserrat"
+                android:text="We Have sent the code verification to your mobile number"
+                android:textColor="@color/blackcolor"
+                android:textSize="@dimen/_14sdp">
+
+            </TextView>
+        </RelativeLayout>
+
+        <TextView
+            android:drawablePadding="@dimen/_8sdp"
+            android:drawableRight="@drawable/ic_edit"
+            android:id="@+id/notxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="+91 9818452167"
+            android:textColor="@color/blackcolor"
+            android:textSize="@dimen/_16sdp">
+
+        </TextView>
+        <LinearLayout
+            android:layout_marginBottom="@dimen/text_size_8"
+            android:weightSum="4"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/text_size_24"
+            android:layout_marginRight="@dimen/text_size_24"
+            android:layout_marginTop="45dp"
+            android:id="@+id/otpcard"
+            android:layout_width="match_parent"
+            android:layout_height="64sp">
+            <RelativeLayout
+                android:background="@drawable/relativebgforotp"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:layout_below="@id/otpcard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/otp_edit_box1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#00000000"
+                    android:fontFamily="@font/montserrat"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:padding="4dp"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#404040"
+                    android:textSize="16sp"
+                    android:textStyle="bold"></EditText>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/relativebgforotp"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:layout_below="@id/otpcard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <EditText
+                    android:fontFamily="@font/montserrat"
+                    android:textAlignment="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:background="#00000000"
+                    android:id="@+id/otp_edit_box2"
+                    android:padding="4dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text=""
+                    android:textColor="#404040"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </EditText>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/relativebgforotp"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+
+                android:layout_below="@id/otpcard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <EditText
+                    android:fontFamily="@font/montserrat"
+                    android:textAlignment="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:background="#00000000"
+                    android:id="@+id/otp_edit_box3"
+                    android:padding="4dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text=""
+                    android:textColor="#404040"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </EditText>
+            </RelativeLayout>
+            <RelativeLayout
+                android:background="@drawable/relativebgforotp"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0.0px"
+                android:clipToPadding="false"
+                android:clipChildren="false"
+
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+
+                android:layout_below="@id/otpcard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <EditText
+                    android:fontFamily="@font/montserrat"
+                    android:textAlignment="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:imeOptions="actionNext"
+                    android:singleLine="true"
+                    android:background="#00000000"
+                    android:id="@+id/otp_edit_box4"
+                    android:padding="4dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:text=""
+                    android:textColor="#404040"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </EditText>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/bottomcard"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:layout_marginBottom="@dimen/_24sdp"
+            app:cardBackgroundColor="@color/appcolor"
+            app:cardCornerRadius="@dimen/_5sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="36sp"
+                android:layout_marginTop="@dimen/_18sdp"
+                android:layout_marginBottom="@dimen/_18sdp"
+                android:layout_marginRight="36sp"
+
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Submit"
+
+                android:textColor="@color/whitecolor"
+                android:textSize="14sp">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_16sdp">
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_4sdp">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Don't Receive OTP? "
+                    android:textColor="@color/blackcolor"
+                    android:textSize="@dimen/_12sdp">
+
+                </TextView>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Resend"
+                    android:textColor="@color/orangecolor"
+                    android:textSize="@dimen/_12sdp">
+
+                </TextView>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+
+
+
+</RelativeLayout>

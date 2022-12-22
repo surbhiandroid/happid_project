@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/whitecolor"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.EntermobilenoActivity">
+    <RelativeLayout
+        android:id="@+id/headerrylt"
+        android:background="@color/pinkcolor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_48sdp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:src="@drawable/ic_back">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/_16sdp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="Create profile"
+            android:textColor="@color/blackcolor"
+            android:textSize="@dimen/_14sdp">
+
+        </TextView>
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headerrylt">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/pinkcolor">
+
+                <RelativeLayout
+                    android:id="@+id/camerarylt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/circularshape">
+
+                    <ImageView
+                        android:id="@+id/profileimage"
+                        android:layout_width="@dimen/_48sdp"
+                        android:layout_height="@dimen/_48sdp"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/camera">
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/camerarylt"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginBottom="@dimen/_16sdp"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Set profile"
+                    android:textColor="@color/blackcolor"
+                    android:textSize="@dimen/_14sdp">
+
+                </TextView>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:fontFamily="@font/montserrat"
+                android:text="First name"
+                android:textColor="@color/blackcolor"
+                android:textSize="@dimen/_14sdp">
+
+            </TextView>
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:layout_weight="1"
+                android:background="@drawable/relativebgforfields">
+
+                <EditText
+                    android:id="@+id/nameeditbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#00000000"
+                    android:fontFamily="@font/montserrat"
+                    android:imeOptions="actionNext"
+                    android:paddingLeft="@dimen/_8sdp"
+                    android:text=""
+                    android:textColor="#404040"
+                    android:textSize="16sp"
+                    android:textStyle="bold"></EditText>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:fontFamily="@font/montserrat"
+                android:text="Last Name"
+                android:textColor="@color/blackcolor"
+                android:textSize="@dimen/_14sdp">
+
+            </TextView>
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:layout_weight="1"
+                android:background="@drawable/relativebgforfields">
+
+                <EditText
+                    android:id="@+id/lastnameeditbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#00000000"
+                    android:fontFamily="@font/montserrat"
+                    android:imeOptions="actionNext"
+                    android:paddingLeft="@dimen/_8sdp"
+                    android:text=""
+                    android:textColor="@color/blackcolor"
+                    android:textSize="16sp"
+                    android:textStyle="bold"></EditText>
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:fontFamily="@font/montserrat"
+                android:text="Phone"
+                android:textColor="@color/blackcolor"
+                android:textSize="@dimen/_14sdp">
+
+            </TextView>
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:layout_weight="1"
+                android:background="@drawable/relativebgforphonefields">
+
+                <EditText
+                    android:id="@+id/noeditbox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#00000000"
+                    android:fontFamily="@font/montserrat"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:paddingLeft="@dimen/_8sdp"
+                    android:text=""
+                    android:textColor="#404040"
+                    android:textSize="16sp"
+                    android:textStyle="bold"></EditText>
+            </RelativeLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/picklocationcard"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_marginLeft="@dimen/text_size_16"
+                android:layout_marginTop="@dimen/text_size_24"
+                android:layout_marginRight="@dimen/text_size_16"
+                android:layout_marginBottom="@dimen/text_size_16"
+                app:cardBackgroundColor="@color/orangecolor"
+                app:cardCornerRadius="@dimen/_5sdp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/montserrat"
+                        android:paddingLeft="@dimen/_8sdp"
+                        android:text="pick your current location"
+                        android:textAllCaps="true"
+                        android:textColor="@color/whitecolor"
+                        android:textSize="@dimen/_12sdp"></TextView>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/_16sdp"
+                        android:src="@drawable/gps">
+
+                    </ImageView>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:fontFamily="@font/montserrat"
+                android:text="Or"
+                android:textColor="@color/blackcolor"
+                android:textSize="@dimen/_14sdp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:fontFamily="@font/montserrat"
+                android:text="Post code"
+                android:textColor="@color/blackcolor"
+                android:textSize="@dimen/_14sdp">
+
+            </TextView>
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_48sdp"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:layout_weight="1"
+                android:background="@drawable/relativebgforphonefields">
+
+                <EditText
+                    android:id="@+id/addresstxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#00000000"
+                    android:fontFamily="@font/montserrat"
+                    android:hint="Select post code or address"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/_8sdp"
+                    android:text=""
+                    android:textColor="@color/blackcolor"
+                    android:textSize="16sp"
+                    android:textStyle="bold"></EditText>
+            </RelativeLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/bottomcard"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:layout_marginRight="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_24sdp"
+                app:cardBackgroundColor="@color/appcolor"
+                app:cardCornerRadius="@dimen/_5sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="36sp"
+                    android:layout_marginTop="@dimen/_18sdp"
+                    android:layout_marginRight="36sp"
+                    android:layout_marginBottom="@dimen/_18sdp"
+
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Submit"
+
+                    android:textColor="@color/whitecolor"
+                    android:textSize="14sp">
+
+                </TextView>
+            </androidx.cardview.widget.CardView>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_16sdp">
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</RelativeLayout>

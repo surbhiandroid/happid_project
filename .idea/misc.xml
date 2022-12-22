@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Doctor App/Happid/app/src/main/res/drawable/circularshape.xml" value="0.145" />
+        <entry key="..\:/Doctor App/Happid/app/src/main/res/drawable/otpdilaog.xml" value="0.145" />
+        <entry key="..\:/Doctor App/Happid/app/src/main/res/drawable/relativebgforfields.xml" value="0.145" />
+        <entry key="..\:/Doctor App/Happid/app/src/main/res/drawable/relativebgforotp.xml" value="0.145" />
+        <entry key="..\:/Doctor App/Happid/app/src/main/res/drawable/relativebgforphonefields.xml" value="0.145" />
+        <entry key="..\:/Doctor App/Happid/app/src/main/res/font/montserrat_bold.xml" value="0.1" />
+        <entry key="..\:/Doctor App/Happid/app/src/main/res/layout/activity_entermobileno.xml" value="0.33" />
+        <entry key="..\:/Doctor App/Happid/app/src/main/res/layout/activity_enterotp.xml" value="0.16259057971014493" />
+        <entry key="..\:/Doctor App/Happid/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Doctor App/Happid/app/src/main/res/layout/activity_profile_screen.xml" value="0.25" />
+        <entry key="..\:/Doctor App/Happid/app/src/main/res/layout/activity_splash.xml" value="0.16259057971014493" />
+        <entry key="..\:/Doctor App/Happid/app/src/main/res/layout/activity_walkthrough.xml" value="0.2" />
+        <entry key="..\:/Doctor App/Happid/app/src/main/res/layout/cardpopup.xml" value="0.33" />
+        <entry key="..\:/Doctor App/Happid/app/src/main/res/layout/dialog_camera_photo.xml" value="0.16259057971014493" />
+        <entry key="..\:/Doctor App/Happid/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

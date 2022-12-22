@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:fontFamily="@font/montserrat"
+        android:id="@+id/tv_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Camera"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.8"
+        android:layout_below="@+id/tv_camera"
+        android:background="#000000" />
+
+
+
+    <TextView
+        android:fontFamily="@font/montserrat"
+        android:id="@+id/tv_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Gallery"
+        android:padding="20dp"
+        android:layout_below="@id/v1"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <View
+        android:visibility="gone"
+        android:id="@+id/pdfv"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.8"
+        android:layout_below="@+id/tv_gallery"
+        android:background="#000000" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_pdf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pdfv"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Pdf"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+
+    <View
+        android:id="@+id/v2"
+        android:layout_below="@id/tv_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="gone"
+        android:alpha="0.8"
+        android:background="#000000" />
+
+
+
+
+    <View
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.8"
+        android:visibility="gone"
+        android:background="#000000" />
+
+</RelativeLayout>
+
